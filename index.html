@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preguntas y Respuestas sobre CSS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        h2 {
+            color: #555;
+        }
+        pre {
+            background-color: #f4f4f4;
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Preguntas y Respuestas sobre CSS</h1>
+
+    <h2>1. Definición de CSS</h2>
+    <p>CSS (Cascading Style Sheets, o Hojas de Estilo en Cascada) es un lenguaje de diseño utilizado para definir la presentación de documentos escritos en HTML o XML. CSS permite separar el contenido del documento de su presentación visual.</p>
+
+    <h2>2. Funcionamiento Básico de CSS</h2>
+    <p>CSS funciona aplicando reglas de estilo a los elementos HTML. Estas reglas definen cómo deben mostrarse los elementos en una página web. CSS utiliza selectores para seleccionar los elementos que se desean estilizar y aplica estilos a estos elementos mediante propiedades y valores.</p>
+
+    <h2>3. Incluir CSS en un archivo HTML</h2>
+    <p>CSS puede incluirse en un archivo HTML de tres maneras:</p>
+    <ul>
+        <li><strong>En línea:</strong> Directamente en el atributo <code>style</code> de un elemento HTML.</li>
+        <li><strong>Interno:</strong> Dentro de una etiqueta <code>&lt;style&gt;</code> en la sección <code>&lt;head&gt;</code> del HTML.</li>
+        <li><strong>Externo:</strong> Enlazando a un archivo CSS separado utilizando la etiqueta <code>&lt;link&gt;</code> en la sección <code>&lt;head&gt;</code> del HTML.</li>
+    </ul>
+
+    <h2>4. Definición de una regla CSS</h2>
+    <p>Una regla CSS consiste en un selector y un bloque de declaración. El bloque de declaración contiene una o más declaraciones, cada una con una propiedad y un valor.</p>
+
+    <h2>5. Elemento de una regla CSS</h2>
+    <p>Los elementos de una regla CSS son:</p>
+    <ul>
+        <li><strong>Regla:</strong> Un conjunto de instrucciones CSS que define cómo deben estilizarse los elementos seleccionados.</li>
+        <li><strong>Selector:</strong> La parte de la regla CSS que selecciona los elementos HTML a los que se aplicará el estilo.</li>
+        <li><strong>Bloque de declaración:</strong> La parte de la regla CSS que contiene uno o más pares de propiedad-valor encerrados en llaves <code>{}</code>.</li>
+        <li><strong>Propiedad:</strong> Un atributo del elemento que se desea modificar (por ejemplo, <code>color</code>, <code>font-size</code>).</li>
+        <li><strong>Valor:</strong> El valor que se asigna a la propiedad (por ejemplo, <code>red</code>, <code>16px</code>).</li>
+    </ul>
+
+    <h2>6. Medios CSS</h2>
+    <p>Los medios CSS se utilizan para aplicar estilos específicos en función del tipo de dispositivo o características del entorno de visualización. Se especifican utilizando reglas @media en CSS, permitiendo adaptar el diseño a diferentes tamaños de pantalla y dispositivos.</p>
+
+    <h2>7. Comentarios CSS</h2>
+    <p>Los comentarios en CSS se crean encerrando el texto en <code>/*</code> y <code>*/</code>. Los comentarios son ignorados por el navegador y se utilizan para incluir notas o explicaciones dentro del código CSS.</p>
+    <pre>
+/* Este es un comentario en CSS */
+    </pre>
+
+    <h2>8. Sintaxis de la definición de las propiedades CSS</h2>
+    <p>La sintaxis de las propiedades CSS se define de la siguiente manera:</p>
+    <pre>
+selector {
+    propiedad: valor;
+}
+    </pre>
+    <p>Por ejemplo:</p>
+    <pre>
+p {
+    color: blue;
+    font-size: 14px;
+}
+    </pre>
+    <p>En este ejemplo, <code>p</code> es el selector, <code>color</code> y <code>font-size</code> son las propiedades, y <code>blue</code> y <code>14px</code> son los valores.</p>
+</body>
+</html>
+```
+
+Este código HTML incluye una estructura básica para presentar preguntas y respuestas sobre CSS, con estilo para mejorar la legibilidad. Puedes copiarlo y pegarlo en un archivo HTML para visualizarlo en un navegador.
